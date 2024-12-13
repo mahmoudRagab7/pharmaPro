@@ -1,0 +1,30 @@
+.searchDialogContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+}
+
+.searchDialogInpAndIcon {
+  position: relative;
+  width: 100%;
+}
+
+.searchDialogInp {
+  max-width: 100%;
+  width: 90%;
+  border: 1px solid #386f8e;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.searchDialogIcon {
+  position: absolute;
+  right: 30px;
+  color: #386f8e;
+  top: 4px;
+}
+
+.searchDialogBtn:disabled {
+  cursor: not-allowed !important;
+}
